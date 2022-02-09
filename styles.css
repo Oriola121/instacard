@@ -1,0 +1,77 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+	body{
+	height: 100vh;
+	width: 100%;
+	background-image: url(./image/bg.png);
+	background-position: center;
+	background-size: cover;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 5px;
+}
+.card {
+	height: 490px;
+	width: 320px;
+	background-color: white;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin: 5px;
+}
+.fast {
+	display: flex;
+	align-items: center;
+	height: 100%;
+}
+.top_contain {
+	width: 90%;
+	display: flex;
+	justify-content: space-between;
+	height: 60px;
+	align-items: center;
+}
+.Avatar {
+	height: 40px;
+	width: 40px;
+	border-radius: 50px;
+	border: 1px solid red;
+	margin: 5px;
+}
+.post {
+	height: 350px;
+	background-color: white;
+	width: 97%;
+}
+.post >img {
+	height: 100%;
+	width: 100%;
+}
+.burger >img {
+	height: 20px;
+	width: 30px;
+}
+.icons {
+	width: 97%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 50px;
+}
+.imgs {
+	display: flex;
+}
+.imgs >img {
+	height: 30px;
+	width: 30px;
+}
+.save >img {
+	height: 30px;
+	width: 30px;
+}
+.likes {
+	width: 97%;
+}

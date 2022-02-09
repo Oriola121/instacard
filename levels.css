@@ -1,0 +1,65 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	height: 100vh;
+	width: 100px;
+	background-color: black;
+	
+}
+.Avatar {
+	height: 50px;
+	width: 50px;
+	border-radius: 50px;
+}
+.card {
+	height: 490px;
+	width: 320px;
+	background-color: white`;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin: 5px;
+}
+.top_contain {
+	width: 90%;
+	height: 60px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.fast {
+	display: flex;
+	align-items: center;
+	height: 100%;
+}
+.burger >img {
+	height: 25px;
+	width: 30px;
+}
+.post {
+	height: 350px;
+	background-color: white;
+	width: 97%;
+}
+.post >img {
+	height: 100%;
+	width: 100%;
+}
+.imgs {
+	display: flex;
+}
+.icons {
+	width: 97%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 50px;
+	
+}
+.imgs >img {
+	height: 30px;
+	width: 30px;
+	border: 1px solid white;
+}
